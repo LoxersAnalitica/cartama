@@ -17,7 +17,7 @@ function App() {
       {/* HERO SECTION */}
       <section className="hero">
         <div className="container hero-content">
-          <h1>Tu solar en Cártama por <span style={{ color: 'var(--accent-color)' }}>110.000 €</span></h1>
+          <h1>Tu solar en Cártama por <span style={{ color: '#F4E3B1', fontWeight: 700, textShadow: '0 2px 15px rgba(0,0,0,0.8)' }}>110.000 €</span></h1>
           <p>A 15 minutos de Málaga capital. Edificabilidad hasta 197 m². Urbanización ya en marcha.</p>
           <button onClick={scrollToForm} className="btn btn-primary" style={{ fontSize: '1.1rem', padding: '1.2rem 2.5rem' }}>
             Quiero más información <ArrowRight size={20} style={{ marginLeft: '8px' }} />
@@ -28,7 +28,7 @@ function App() {
       {/* SECTION 1 - CONTEXTO / PROBLEMA */}
       <section className="section">
         <div className="container" style={{ maxWidth: '800px', textAlign: 'center' }}>
-          <h2 style={{ fontSize: '2.2rem', marginBottom: '1.5rem' }}>El precio de la vivienda en Málaga no para de subir. Aquí, todavía puedes adelantarte.</h2>
+          <h2>El precio de la vivienda en Málaga no para de subir. Aquí, todavía puedes adelantarte.</h2>
           <p style={{ fontSize: '1.1rem', color: 'var(--text-muted)' }}>
             Mientras en la costa y en la capital los precios se han disparado, Estación de Cártama ofrece una alternativa real: suelo urbanizable a precio de hoy, a 15 minutos de Málaga, 5 del PTA y 10 del aeropuerto.
           </p>
@@ -43,7 +43,8 @@ function App() {
         <div className="container" style={{ maxWidth: '1000px' }}>
           <div className="grid-2-col">
             <div>
-              <h2 style={{ fontSize: '2.5rem', marginBottom: '2rem' }}>Lo que estás comprando</h2>
+              <h2>Lo que estás comprando</h2>
+              <img src="/section-image.jpg" alt="Chalet adosado de diseño moderno" style={{ width: '100%', height: 'auto', borderRadius: '12px', marginBottom: '2rem', boxShadow: '0 8px 24px rgba(0,0,0,0.1)', objectFit: 'cover', maxHeight: '350px' }} />
               <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
                 <li style={{ display: 'flex', gap: '12px', fontSize: '1.1rem', alignItems: 'flex-start' }}>
                   <Ruler color="var(--accent-color)" size={24} style={{ flexShrink: 0, marginTop: '2px' }} />
@@ -77,7 +78,7 @@ function App() {
       {/* SECTION 3 - NÚMEROS */}
       <section className="section">
         <div className="container" style={{ maxWidth: '800px' }}>
-          <h2 style={{ fontSize: '2.5rem', marginBottom: '2rem', textAlign: 'center' }}>La inversión, clara desde el principio</h2>
+          <h2 style={{ textAlign: 'center' }}>La inversión, clara desde el principio</h2>
           
           <div style={{ overflowX: 'auto' }}>
             <table className="data-table">
@@ -126,7 +127,7 @@ function App() {
       {/* SECTION 4 - PLAZOS */}
       <section className="section section-bg">
         <div className="container">
-          <h2 style={{ fontSize: '2.5rem', marginBottom: '3rem', textAlign: 'center' }}>¿Cuándo puedes construir?</h2>
+          <h2 style={{ textAlign: 'center' }}>¿Cuándo puedes construir?</h2>
           
           <div className="timeline">
             <div className="timeline-item">
@@ -153,7 +154,7 @@ function App() {
       <section className="section">
         <div className="container" style={{ maxWidth: '800px', textAlign: 'center' }}>
           <MapPin size={48} color="var(--accent-color)" style={{ margin: '0 auto 1.5rem' }} />
-          <h2 style={{ fontSize: '2.5rem', marginBottom: '1.5rem' }}>En el corazón del Valle del Guadalhorce</h2>
+          <h2>En el corazón del Valle del Guadalhorce</h2>
           <p style={{ fontSize: '1.1rem', color: 'var(--text-muted)', marginBottom: '2.5rem' }}>
             Estación de Cártama combina la tranquilidad de un entorno natural con una conectividad excepcional:
           </p>
@@ -194,7 +195,7 @@ function App() {
       {/* SECTION 6 - FAQs */}
       <section className="section section-bg">
         <div className="container" style={{ maxWidth: '800px' }}>
-          <h2 style={{ fontSize: '2.5rem', marginBottom: '3rem', textAlign: 'center' }}>Preguntas Frecuentes</h2>
+          <h2 style={{ textAlign: 'center' }}>Preguntas Frecuentes</h2>
           
           <div className="faq-item">
             <h3 className="faq-question">¿Qué significa adherirse a la Junta de Compensación?</h3>
@@ -238,7 +239,7 @@ function App() {
       {/* CTA FINAL */}
       <section className="section" style={{ backgroundColor: 'var(--accent-color)', color: 'white', textAlign: 'center' }}>
         <div className="container" style={{ maxWidth: '600px' }}>
-          <h2 style={{ fontSize: '2.5rem', marginBottom: '1rem', color: 'white' }}>¿Te interesa? Quedan muy pocas unidades.</h2>
+          <h2 style={{ color: 'white' }}>¿Te interesa? Quedan muy pocas unidades.</h2>
           <p style={{ fontSize: '1.2rem', marginBottom: '2.5rem', opacity: 0.9 }}>
             Contacta directamente con el propietario. Sin intermediarios, sin comisiones.
           </p>
