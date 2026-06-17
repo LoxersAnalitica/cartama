@@ -93,7 +93,6 @@ export default function Wizard() {
               onChange={handleInput} 
               className="form-input" 
               placeholder="Introduce tu nombre y apellidos"
-              autoFocus
               onKeyDown={(e) => { if (e.key === 'Enter' && formData.name) nextStep(); }}
             />
           </div>
@@ -109,7 +108,6 @@ export default function Wizard() {
               onChange={handleInput} 
               className="form-input" 
               placeholder="tu@email.com"
-              autoFocus
               onKeyDown={(e) => { if (e.key === 'Enter' && formData.email) nextStep(); }}
             />
           </div>
