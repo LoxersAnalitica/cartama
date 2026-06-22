@@ -17,7 +17,7 @@ function App() {
       {/* HERO SECTION */}
       <section className="hero">
         <div className="container hero-content">
-          <h1>Tu solar en Cártama por <span style={{ color: '#F4E3B1', fontWeight: 700, textShadow: '0 2px 15px rgba(0,0,0,0.8)' }}>110.000 €</span></h1>
+          <h1>Tu solar en Cártama por <span style={{ color: '#F4E3B1', fontWeight: 700, textShadow: '0 2px 15px rgba(0,0,0,0.8)' }}>114.000 €</span></h1>
           <p>A 15 minutos de Málaga capital. Edificabilidad hasta 197 m². Urbanización ya en marcha.</p>
           <button onClick={scrollToForm} className="btn btn-primary" style={{ fontSize: '1.1rem', padding: '1.2rem 2.5rem' }}>
             Quiero más información <ArrowRight size={20} style={{ marginLeft: '8px' }} />
@@ -103,15 +103,15 @@ function App() {
                 </tr>
                 <tr>
                   <td>1ª cuota de urbanización <br/><span style={{ fontSize: '0.85rem', color: 'var(--text-muted)', fontWeight: 'normal' }}>(a los 7 días de escriturar)</span></td>
-                  <td style={{ textAlign: 'right', fontWeight: 500 }}>17.200 € + IVA</td>
+                  <td style={{ textAlign: 'right', fontWeight: 500 }}>20.000 € + IVA</td>
                 </tr>
                 <tr>
                   <td>Cuota restante estimada</td>
-                  <td style={{ textAlign: 'right', fontWeight: 500 }}>14.000 € + IVA</td>
+                  <td style={{ textAlign: 'right', fontWeight: 500 }}>14.300 € + IVA</td>
                 </tr>
                 <tr className="total-row">
                   <td>Total estimado</td>
-                  <td style={{ textAlign: 'right', fontSize: '1.1rem' }}>110.230 €</td>
+                  <td style={{ textAlign: 'right', fontSize: '1.1rem' }}>113.982 €</td>
                 </tr>
               </tbody>
             </table>
@@ -119,7 +119,7 @@ function App() {
 
           <div className="highlight-box">
             <p style={{ margin: 0, fontSize: '1.1rem', fontWeight: 500 }}>El precio de mercado para una parcela equivalente en Cártama está en torno a 130.000 €.</p>
-            <p style={{ margin: 0, marginTop: '0.5rem', fontSize: '1.2rem', color: 'var(--accent-dark)', fontWeight: 600 }}>Comprando ahora, te ahorras aproximadamente un 18%.</p>
+            <p style={{ margin: 0, marginTop: '0.5rem', fontSize: '1.2rem', color: 'var(--accent-dark)', fontWeight: 600 }}>Comprando ahora, te ahorras aproximadamente un 12%.</p>
           </div>
         </div>
       </section>
