@@ -18,7 +18,7 @@ function App() {
       <section className="hero">
         <div className="container hero-content">
           <h1>Tu solar en Cártama por <span style={{ color: '#F4E3B1', fontWeight: 700, textShadow: '0 2px 15px rgba(0,0,0,0.8)' }}>114.000 €</span></h1>
-          <p>A 15 minutos de Málaga capital. Edificabilidad hasta 197 m². Urbanización ya en marcha.</p>
+          <p>A 15 minutos de Málaga capital. Edificabilidad hasta 221,93 m². Urbanización ya en marcha.</p>
           <button onClick={scrollToForm} className="btn btn-primary" style={{ fontSize: '1.1rem', padding: '1.2rem 2.5rem' }}>
             Quiero más información <ArrowRight size={20} style={{ marginLeft: '8px' }} />
           </button>
@@ -48,7 +48,7 @@ function App() {
               <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
                 <li style={{ display: 'flex', gap: '12px', fontSize: '1.1rem', alignItems: 'flex-start' }}>
                   <Ruler color="var(--accent-color)" size={24} style={{ flexShrink: 0, marginTop: '2px' }} />
-                  <span>Solar de 146,22 m² con edificabilidad máxima de 197 m²</span>
+                  <span>Solar de 134,3 m² con edificabilidad máxima de 221,93 m²</span>
                 </li>
                 <li style={{ display: 'flex', gap: '12px', fontSize: '1.1rem', alignItems: 'flex-start' }}>
                   <Home color="var(--accent-color)" size={24} style={{ flexShrink: 0, marginTop: '2px' }} />
